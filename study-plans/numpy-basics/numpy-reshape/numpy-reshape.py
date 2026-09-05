@@ -7,4 +7,4 @@ def reshape_array(data, operation):
     elif operation =="transpose":
         return data.T
     elif operation == "add_batch":
-        return data[np.newaxis,:]
+        return data[None,:]
